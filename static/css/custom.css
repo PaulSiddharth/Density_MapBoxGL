@@ -1,0 +1,62 @@
+html{
+    background: #FFB300;
+}
+h1, h2 {
+    font-weight: normal;
+}
+h3{
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: small;
+    color: brown;
+    /* background-color: #FFB300; */
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+li {
+display: inline-block;
+margin: 0 10px;
+}
+a {
+color: #42b983;
+}
+.mapboxgl-canvas{
+    position: relative !important;
+    width: 1320px !important;
+    height: 500px !important;
+    margin: 10px !important;
+}
+.dropbox{
+    outline: 2px dashed #000;
+    outline-offset: -5px;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    min-height: 24px;
+    max-height: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.mapboxgl-popup-content {
+    outline: 2px dashed  #FFB300 !important;
+    outline-offset: -2px;
+    padding: 7px 5px 5px !important;
+
+}
+.mapboxgl-control-container{
+    visibility: hidden ;
+}
+.margin-top-12{
+    margin-top: 120px;
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #000;
+    margin: 60px;
+}
